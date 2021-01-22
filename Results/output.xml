@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20210122 10:14:30.354" generator="Robot 3.2.1 (Python 2.7.15 on win32)">
+<suite source="C:\development\Robot-Script\Test-Kompas\tests\kompas.robot" id="s1" name="Kompas">
+<test id="s1-t1" name="Open">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.kompas.id/baca/opini/2021/01/14/krisis-lingkungan-dan-bencana-pandemi/</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20210122 10:14:30.605" level="INFO">Opening browser 'ff' to base url 'https://www.kompas.id/baca/opini/2021/01/14/krisis-lingkungan-dan-bencana-pandemi/'.</msg>
+<msg timestamp="20210122 10:14:30.607" level="INFO">Firefox driver log is always forced to to: C:\development\Robot-Script\Test-Kompas\Results\geckodriver-1.log</msg>
+<status status="PASS" endtime="20210122 10:14:41.303" starttime="20210122 10:14:30.604"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210122 10:14:43.304" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210122 10:14:43.304" starttime="20210122 10:14:41.304"></status>
+</kw>
+<status status="PASS" endtime="20210122 10:14:43.305" critical="yes" starttime="20210122 10:14:30.602"></status>
+</test>
+<test id="s1-t2" name="Berlangganan">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="__layout"]/div/div[1]/header/div/div[3]/div/div/a[2]</arg>
+</arguments>
+<msg timestamp="20210122 10:14:43.309" level="INFO">Clicking element 'xpath=//*[@id="__layout"]/div/div[1]/header/div/div[3]/div/div/a[2]'.</msg>
+<status status="PASS" endtime="20210122 10:14:46.667" starttime="20210122 10:14:43.308"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210122 10:14:48.667" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210122 10:14:48.667" starttime="20210122 10:14:46.667"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20210122 10:14:49.320" starttime="20210122 10:14:48.668"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.kompas.id/baca/opini/2021/01/14/krisis-lingkungan-dan-bencana-pandemi/</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20210122 10:14:49.321" level="INFO">Opening browser 'ff' to base url 'https://www.kompas.id/baca/opini/2021/01/14/krisis-lingkungan-dan-bencana-pandemi/'.</msg>
+<msg timestamp="20210122 10:14:49.322" level="INFO">Firefox driver log is always forced to to: C:\development\Robot-Script\Test-Kompas\Results\geckodriver-2.log</msg>
+<status status="PASS" endtime="20210122 10:14:58.831" starttime="20210122 10:14:49.321"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210122 10:15:00.832" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210122 10:15:00.832" starttime="20210122 10:14:58.831"></status>
+</kw>
+<status status="PASS" endtime="20210122 10:15:00.833" critical="yes" starttime="20210122 10:14:43.308"></status>
+</test>
+<test id="s1-t3" name="Facebook">
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="__layout"]/div/div[2]/div/div[1]/div/article/div[2]/div[4]/div[2]/div[2]/div/a[1]</arg>
+</arguments>
+<msg timestamp="20210122 10:15:00.837" level="INFO">Clicking link 'xpath=//*[@id="__layout"]/div/div[2]/div/div[1]/div/article/div[2]/div[4]/div[2]/div[2]/div/a[1]'.</msg>
+<status status="PASS" endtime="20210122 10:15:01.284" starttime="20210122 10:15:00.836"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210122 10:15:04.285" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20210122 10:15:04.285" starttime="20210122 10:15:01.285"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20210122 10:15:04.952" starttime="20210122 10:15:04.285"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.kompas.id/baca/opini/2021/01/14/krisis-lingkungan-dan-bencana-pandemi/</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20210122 10:15:04.953" level="INFO">Opening browser 'ff' to base url 'https://www.kompas.id/baca/opini/2021/01/14/krisis-lingkungan-dan-bencana-pandemi/'.</msg>
+<msg timestamp="20210122 10:15:04.953" level="INFO">Firefox driver log is always forced to to: C:\development\Robot-Script\Test-Kompas\Results\geckodriver-3.log</msg>
+<status status="PASS" endtime="20210122 10:15:17.122" starttime="20210122 10:15:04.952"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210122 10:15:19.125" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210122 10:15:19.126" starttime="20210122 10:15:17.123"></status>
+</kw>
+<status status="PASS" endtime="20210122 10:15:19.127" critical="yes" starttime="20210122 10:15:00.835"></status>
+</test>
+<test id="s1-t4" name="Twitter">
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="__layout"]/div/div[2]/div/div[1]/div/article/div[2]/div[4]/div[2]/div[2]/div/a[2]</arg>
+</arguments>
+<msg timestamp="20210122 10:15:19.144" level="INFO">Clicking link 'xpath=//*[@id="__layout"]/div/div[2]/div/div[1]/div/article/div[2]/div[4]/div[2]/div[2]/div/a[2]'.</msg>
+<status status="PASS" endtime="20210122 10:15:19.582" starttime="20210122 10:15:19.144"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210122 10:15:22.583" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20210122 10:15:22.583" starttime="20210122 10:15:19.583"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20210122 10:15:23.362" starttime="20210122 10:15:22.583"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.kompas.id/baca/opini/2021/01/14/krisis-lingkungan-dan-bencana-pandemi/</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20210122 10:15:23.363" level="INFO">Opening browser 'ff' to base url 'https://www.kompas.id/baca/opini/2021/01/14/krisis-lingkungan-dan-bencana-pandemi/'.</msg>
+<msg timestamp="20210122 10:15:23.365" level="INFO">Firefox driver log is always forced to to: C:\development\Robot-Script\Test-Kompas\Results\geckodriver-4.log</msg>
+<status status="PASS" endtime="20210122 10:15:33.844" starttime="20210122 10:15:23.363"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20210122 10:15:35.847" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20210122 10:15:35.847" starttime="20210122 10:15:33.846"></status>
+</kw>
+<status status="PASS" endtime="20210122 10:15:35.848" critical="yes" starttime="20210122 10:15:19.143"></status>
+</test>
+<test id="s1-t5" name="WA">
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="__layout"]/div/div[2]/div/div[1]/div/article/div[2]/div[4]/div[2]/div[2]/div/a[3]</arg>
+</arguments>
+<msg timestamp="20210122 10:15:35.851" level="INFO">Clicking link 'xpath=//*[@id="__layout"]/div/div[2]/div/div[1]/div/article/div[2]/div[4]/div[2]/div[2]/div/a[3]'.</msg>
+<status status="PASS" endtime="20210122 10:15:36.304" starttime="20210122 10:15:35.851"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20210122 10:15:39.309" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20210122 10:15:39.310" starttime="20210122 10:15:36.307"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20210122 10:15:39.973" starttime="20210122 10:15:39.312"></status>
+</kw>
+<status status="PASS" endtime="20210122 10:15:39.973" critical="yes" starttime="20210122 10:15:35.850"></status>
+</test>
+<status status="PASS" endtime="20210122 10:15:39.976" starttime="20210122 10:14:30.356"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="5">Critical Tests</stat>
+<stat fail="0" pass="5">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Kompas" pass="5">Kompas</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210122 10:14:30.598" level="ERROR">Error in file 'C:\development\Robot-Script\Test-Kompas\tests\kompas.robot' on line 3: Importing test library 'Selenium2Library' failed: ImportError: No module named Selenium2Library
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Python27\Scripts\robot.exe
+  C:\WINDOWS\SYSTEM32\python27.zip
+  c:\python27\DLLs
+  c:\python27\lib
+  c:\python27\lib\plat-win
+  c:\python27\lib\lib-tk
+  c:\python27
+  c:\python27\lib\site-packages</msg>
+</errors>
+</robot>
